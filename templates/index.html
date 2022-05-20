@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    
+    <link href="{{ url_for('static', filename='assets/img/CodebuggedTransparent-03.png') }}" rel="icon" />
+    <link
+      href= "{{ url_for('static', filename='assets/img/CodebuggedTransparent-02.png') }}"
+      rel="apple-touch-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      href="{{ url_for('static',filename='assets/vendor/bootstrap/css/bootstrap.min.css') }}"
+      rel="stylesheet"
+    />
+    <link href="{{ url_for('static',filename='assets/vendor/icofont/icofont.min.css') }}" rel="stylesheet" />
+    <link href="{{ url_for('static',filename='assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet" />
+    
+    <link href="{{ url_for('static',filename='assets/vendor/aos/aos.css') }}" rel="stylesheet" />
+    <link href="{{ url_for('static',filename='assets/css/style.css') }}" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="{{ url_for('static',filename='swar_ai/assets/css/chatbot.css') }}"
+      rel="stylesheet"
+    />
+    <link
+      href="{{ url_for('static',filename='swar_ai/assets/css/swar_main.css') }}"
+      rel="stylesheet"
+    />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+
+
+    <title>Codebugged SWAR AI</title>
+  
+  </head>
+
+  <body>
+  
+    <header id="header" class="fixed-top d-flex align-items-center" style="background-color:white;z-position:9px">
+        <div class="container d-flex align-items-center">
+            <div class="logo mr-auto">
+                <a href="index.html">
+                    <img src="{{ url_for('static',filename='assets/img/CodebuggedTransparent-02.png') }}" alt="" class="img-fluid">
+                    <span style="color: #3498DB;">Codebugged SWAR AI</span>
+                </a>
+            </div>
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a style="color:#3498db" href="#">Why SWAR AI?</a></li>
+                    <li><a href="#" style="color:black">About</a></li>
+                    <li><a href="#" style="color:black">Team</a></li>
+                    <li><a href="#" style="color:black">Contact</a></li>
+                    <li class="get-started"><a href="#">DEMO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--WHY-->
+    <div id="particles-js"></div>
+    <section
+      id="hero"
+      class="d-flex align-items-center"
+      style="min-height: 95vh;background-color:white;margin-top:2rem;margin-bottom:0rem;padding-bottom:0rem"
+    >
+      <div class="container" >
+        <div class="row">
+          <div
+            class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
+          >
+            <h1 data-aos="fade-up" style="color: #3498db">
+              <span style="color: #3f3d56">SWAR </span>AI
+            </h1>
+            <div class="col-lg-13" style="padding-top:2rem;padding-bottom:1rem" data-aos="fade-up" data-aos-delay="150">
+                <p class="" style="color: black">
+                  <span style="color: #3498db"> Codebugged Swar AI</span> automates conversations between businesses and customers.
+                  <span style="color: #3498db">
+                    Swar AI chatbot</span
+                  >
+                  helps you reply to all messages
+                  <span style="color: #3498db">
+                    instantly, efficiently,
+                  </span>
+                  and in a <span style="color: #3498db">
+                    personalized 
+                  </span>
+                  way.
+                </p>
+                <ul style="color: black">
+                  <li class="" style="">
+                    <i class="ri-check-double-line"></i>
+                      <b>Industry/domain specific Chatbot :</b> Trained on <span style="color: #3498db">industry specific datasets</span>, chatbot ensures not only the 
+                    <span style="color: #3498db">fastest</span> time to market but also <span style="color: #3498db">deep, engaging conversations.</span>
+
+                  </li>
+                  <li class="" style="">
+                    <i class="ri-check-double-line"></i>
+                    <b>Intelligent analytics : </b> It reports how users interact with the chatbot
+                     and find limitations, enabling improvement.
+                  </li>
+                  
+                </ul>
+              </div>
+            <!--
+            <div
+              data-aos="fade-up"
+              data-aos-delay="400"
+              id="head-line"
+              style="
+                border-left: solid;
+                padding: 1rem 0.5rem;
+                margin: 1rem;
+                color: #94afb8;
+              "
+            >
+              SWAR
+              <span style="color: #35b5d2"> AI</span> <br />
+            </div>-->
+            <div class="" data-aos="fade-up" data-aos-delay="800">
+              <a href="#about" class="btn-get-started scrollto animated">Get Started</a>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2 hero-img"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <img
+              src="{{ url_for('static',filename='assets/svg/undraw_chat_bot_kli5.svg' )}}"
+              class="img-fluid "
+              style=""
+              alt=""
+              data-aos="fade-left"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Services Section ======= -->
+      <section id="services" class="services" style="margin-top:0rem;padding-top:0rem;margin-bottom:3rem">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Uses</h2>
+            <p>
+              
+            </p>
+          </div>
+          <br>
+          <div class="row">
+            
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-right" data-aos-delay="400">
+                <h4 class="title"><a href="domain.html">24x7 <br> AVAILABILITY</a></h4>
+                <p class="description">
+                  Reduces waiting time and answers at all times.
+                </p><br><br><div class="icon"><i class="bx bx-time"></i></div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-right" data-aos-delay="200">
+                <div class="icon"><i class="bx bx-bullseye"></i></div>
+                <h4 class="title"><a href="domain.html">ENGAGING</a></h4>
+                <p class="description">
+                  Gives up-to-date, authentic, and tailored experiences on your customer’s terms.
+                  systems
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-left" data-aos-delay="200">
+                
+                <h4 class="title"><a href="domain.html">INCREASED EFFICIENCY</a></h4>
+                
+                <p class="description">
+                  Reduces man power and delivers responses in seconds.
+                </p><br>
+                <div class="icon"><i class="bx bx-laptop"></i></div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-left" data-aos-delay="400">
+                <div class="icon"><i class="bx bxs-network-chart"></i></div>
+                <h4 class="title"><a href="domain.html">ADAPTABLE</a></h4>
+                <p class="description">
+                  Highly scalable, and integrates seamlessly.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <center>
+          <a href="domain.html" data-aos="fade-up" data-aos-delay="400" class="btn-learn-more">View All</a>
+        </center>
+      </section>
+      <!-- End Services Section -->
+
+
+
+    <!-- ======= Services Section ======= -->
+      <section id="whyswar" class="services" style="margin-top:0rem;padding-top:0rem">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Why Conversational AI?</h2>
+            <p>
+              
+            </p>
+
+            <div
+            class="pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
+          >
+      
+            <div class="col-lg-13" style="padding-top:2rem;padding-bottom:1rem" data-aos="fade-up" data-aos-delay="150">
+                <p class="" style="color: black"> Gadgets are becoming smaller, and systems and apps are growing more complex.
+                 Consequently, people often don’t know how to use or find different features, but they know 
+                 their requirements and how to communicate. By replacing conventional user interfaces
+                  with chatbots, companies can make <span style="color: #3498db">customer experiences more straightforward and intuitive</span>
+                   and make <span style="color: #3498db">employee workflows faster and more productive</span>.
+                  
+                </p>
+                
+              </div>
+           
+          </div>
+          </div>
+          <br>
+          
+        </div>
+        
+      </section>
+
+      
+      
+    <section id="counts" class="counts" style="margin-bottom:5rem">
+          <div class="container">
+            <div class="row">
+              <div
+                class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start"
+                data-aos="fade-left"
+                data-aos-delay="150"
+              >
+                <img
+                  src="{{ url_for('static',filename='swar_ai/assets/svg/undraw_ask_me_anything_k8o0.svg' )}}"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+
+              <div
+                class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <div class="content d-flex flex-column justify-content-center">
+                  <div class="row">
+                    <div class="col-md-6 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <i class="icofont-simple-smile"></i>
+                        <span data-toggle="counter-up" style="color: #f4f4f4"
+                          >21</span
+                        >
+                        <p style="color: #999999">
+                          <strong>Happy Clients</strong><br />
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <i class="icofont-document-folder"></i>
+                        <span data-toggle="counter-up" style="color: #f4f4f4"
+                          >29</span
+                        >
+                        <p style="color: #999999">
+                          <strong>Chat Interactions</strong> <br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-6 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <i class="icofont-clock-time"></i>
+                        <span data-toggle="counter-up" style="color: #f4f4f4"
+                          >2.5</span
+                        >
+                        <p style="color: #999999">
+                          <strong>Years of experience</strong>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-6 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <i class="icofont-award"></i>
+                        <span data-toggle="counter-up" style="color: #f4f4f4"
+                          >10</span
+                        >
+                        <p style="color: #999999">
+                          <strong>Live Implementations</strong>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End .content-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Counts Section -->
+
+    <section
+        id="contact"
+        class="contact"
+        style="background-color: #0b121b; color: #f4f4f4;position:relative"
+      >
+        <div class="container">
+          <div class="section-title " style="" data-aos="fade-up">
+            <h2 style="color: #f4f4f4">Contact Us</h2>
+          </div>
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-6 " style=""
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="contact-about">
+                <h3 style="color: #f4f4f4">Codebugged</h3>
+                <p style="color: #999999"></p>
+                <div class="social-links">
+                  <a href="https://github.com/codebugged" class="github"
+                    ><i class="icofont-github"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/codebugged/"
+                    class="facebook"
+                    ><i class="icofont-facebook"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/codebugged/"
+                    class="instagram"
+                    ><i class="icofont-instagram"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/company/codebugged"
+                    class="linkedin"
+                    ><i class="icofont-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-6 mt-4 mt-md-0 " style=""
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="info" style="color: #999999">
+                <div>
+                  <i class="ri-map-pin-line"></i>
+                  <p>
+                    Codebugged Lab - Madan Mohan Malviya University of
+                    Technology
+                  </p>
+                </div>
+                <div>
+                  <i class="ri-map-pin-line"></i>
+                  <p>Codebugged Back Office - G-73A, Opposite Ansal Plaza, Sector 23, Gurugram - 122017</p>
+                </div>
+                <div>
+                  <i class="ri-mail-send-line"></i>
+                  <p style="color: #f4f4f4">info@codebugged.com</p>
+                </div>
+                <div>
+                  <i class="ri-phone-line"></i>
+                  <p>+918004006979</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-5 col-md-12 " style=""
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <form action="#" method="#" role="form" class="php-email-form">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 4 chars"
+                    style="border-radius: 15px"
+                  />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                    data-rule="email"
+                    data-msg="Please enter a valid email"
+                    style="border-radius: 15px"
+                  />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 8 chars of subject"
+                    style="border-radius: 15px"
+                  />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    data-rule="required"
+                    data-msg="Please write something for us"
+                    placeholder="Message"
+                    style="border-radius: 15px"
+                  ></textarea>
+                  <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+    
+    <footer id="footer" style="background-color: #0b121b; color: #f4f4f4;position:relative">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6 text-lg-left text-center">
+            <div class="copyright" style="color: #f4f4f4">
+              &copy; Copyright <strong>Codebugged</strong>. All Rights Reserved
+            </div>
+            <div class="credits" style="color: #f4f4f4">
+              Designed by
+              <a href="https://www.codebugged.com/">CoDebugged</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <i class="fa fa-comment open-close-button stat-close" style="font-size: xxx-large; font-weight:thinner"></i>
+
+    <div class="col-sm-3 col-sm-offset-4 frame chat-popup" id="myForm">
+        <div class="chat-header">
+        Chatbot <i class="fa fa-times close-button" aria-hidden="true"></i>
+        </div>
+        <div class="msgs-container">
+        <ul class="messages"></ul>
+        </div>
+        
+        <div>
+            <div class="text-box-class">                        
+                <div class="text" style="background:whitesmoke !important">
+                    <input class="mytext" placeholder="Type a message"/>
+                </div> 
+
+            </div>
+            <div style="padding:10px;">
+                <span class="glyphicon glyphicon-share-alt"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+            </div>                
+        </div>
+    </div>     
+
+    <!--
+    <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+    -->
+    
+    <script src="{{ url_for('static',filename='assets/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='assets/vendor/waypoints/jquery.waypoints.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='assets/vendor/counterup/counterup.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='assets/vendor/aos/aos.js')}}"></script>
+    <script src="{{ url_for('static',filename='assets/js/main.js')}}"></script>
+    <script src="{{ url_for('static',filename='swar_ai/assets/js/main.js')}}"></script>
+    <script src="{{ url_for('static',filename='swar_ai/assets/js/chatbot.js')}}"></script>
+
+    
+
+    </body>
+</html>

@@ -1,0 +1,68 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Welcome to Swar! - your Artificially Intelligent Virtual Assistant. We build Conversational AI based customer care solutions for enterprises. How may I help you today?"],
+         "context_set": ""
+        },
+        {"tag": "query",
+         "patterns": ["I have a question","Can you help me", "Answer my questions", "I need help", "Let me ask you something", "How can you help me?"],
+         "responses": ["Please ask your queries here."],
+         "context_set": ""
+        },
+        {"tag": "Work",
+         "patterns": ["What you do?", "Who are you?", "What is your work?"],
+         "responses": ["Swar is here to help you through your queries. We build Conversational AI based customer care solutions for enterprises."],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "cya later", "I gotta go now", "I gotta rush now", "bye", "bye-bye"],
+         "responses": ["Thank you for visiting. Have a nice day", "Nice to have you. Have a good day!"],
+         "context_set": ""
+        },
+        {"tag": "More about",
+         "patterns": ["Tell me more about you", "Curious to know more about you", "What else you do?"],
+         "responses": ["You've come to the right place! Swar observes, learns and understands over time to provide the best experience."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["I'm Swar aka Artificially Intelligent Virtual Assistant."],
+         "context_set": ""
+        },
+        {"tag": "demo",
+         "patterns": ["Request a demo", "want to have a demo", "Can we meet"],
+         "responses": ["Transform Your Customer Experience with Swar AI. We would like to contact you to help you better."],
+         "context_set": ""
+        },
+        {"tag": "tech",
+         "patterns": ["What technology you use", "How do you recognize intents", "How you understannd what I say", "What stack do you use"],
+         "responses": ["Swar AI is built on top of Natural Language Processing to identify intent of users and respond accordingly."],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["contact information", "contact us", "how can i contact you", "can i get the contact details", "I wanna give some feedback", "how can i give some feedback?"],
+         "responses": ["You can contact us at info@codebugged.com"],
+         "context_set": ""
+        },
+        {"tag": "NLP",
+         "patterns": ["What is NLP", "What is Natural Language Processing","What do you understand by Natural Language Processing", "Why do you use NLP"],
+         "responses": ["Natural Language Processing, also shortened to NLP, is a subfield of artificial intelligence (AI). It helps machines process and understand the human language in any given context so that they automatically can carry out repetitive tasks."],
+         "context_set": ""
+        },   
+        {"tag": "AI",
+         "patterns": ["What is AI", "What is Artificial Intelligence","What do you understand by Artificial Intelligence", "Why do you use AI"],
+         "responses": ["Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems."],
+         "context_set": ""
+        }, 
+        {"tag": "Fallback",
+         "patterns": ["JVFTGFGCS", "468e73khfhervgtuo95ug658u"],
+         "responses": ["Sorry, I didn't get that. Kindly, drop a mail at info@codebugged.com"],
+         "context_set": ""
+        },                      
+        {"tag": "address",
+         "patterns": ["what is the location?","whats the location", "where are you locatated?", "address", "whats the address?"],
+         "responses": ["Codebugged Back Office - G-73A, Opposite Ansal Plaza, Sector 23, Gurugram - 122017"],
+         "context_set": ""
+        }
+   ]
+}
